@@ -1,0 +1,48 @@
+.home-content {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 2rem;
+}
+
+
+.productCard {
+    margin-top: 2rem;
+    line-height: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.productThumnail {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.productBottomSheet {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.productName {
+    display: block;
+    margin-top: 1rem;
+}
+
+.product-price {
+    color: #ff2929;
+}
+
+.addToCart {
+    width: 4rem;
+    height: 3rem;
+    margin-top: 1rem;
+    border: 0;
+    outline: 0;
+    background-color: #00ac2b;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+}
